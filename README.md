@@ -12,6 +12,38 @@ This template is your blank canvas. It comes with a minimal setup to help you ge
 
 Right now, this is just a starting point — the perfect place to begin building and testing your Spark applications.
 
+## 📦 Deployment
+
+This project is configured to deploy to GitHub Pages automatically:
+
+- **Live Site**: https://bensbar.github.io/copilot-value-explor
+- **Build Output**: The `docs/` folder contains the production build
+- **Base Path**: Configured for `/copilot-value-explor/`
+
+### Automated Deployment
+
+The site automatically deploys when changes are pushed to the `main` branch via GitHub Actions workflow (`.github/workflows/deploy.yml`).
+
+### Manual Deployment
+
+To build the project locally:
+
+```bash
+npm install
+npm run build
+```
+
+The production files will be generated in the `docs/` folder.
+
+### GitHub Pages Configuration
+
+To enable GitHub Pages:
+1. Go to your repository Settings
+2. Navigate to Pages section
+3. Under "Source", select "Deploy from a branch"
+4. Select `main` branch and `/docs` folder
+5. Click Save
+
 🧹 Just Exploring?
 No problem! If you were just checking things out and don’t need to keep this code:
 

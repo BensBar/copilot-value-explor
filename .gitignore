@@ -13,6 +13,9 @@ dist-ssr
 *-dist
 *.local
 
+# Don't ignore docs folder (used for GitHub Pages)
+!docs
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
