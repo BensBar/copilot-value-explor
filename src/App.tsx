@@ -26,6 +26,7 @@ import {
   Desktop,
   Pulse,
 } from "@phosphor-icons/react";
+import copilotIcon from "@/assets/images/github-copilot-icon.webp";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   getCopilotMetrics,
@@ -265,9 +266,7 @@ function App() {
           className="mb-8"
         >
           <div className="flex items-center gap-3 mb-2">
-            <div className="p-2.5 bg-primary rounded-xl">
-              <Sparkle weight="fill" className="h-6 w-6 text-primary-foreground" />
-            </div>
+            <img src={copilotIcon} alt="GitHub Copilot" className="h-11 w-11" />
             <h1 className="text-3xl font-display font-bold tracking-tight text-foreground">
               Copilot Value Explorer
             </h1>
