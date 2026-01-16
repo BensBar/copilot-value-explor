@@ -698,7 +698,7 @@ function App() {
                     <Card>
                       <CardHeader className="pb-2">
                         <CardTitle className="text-sm font-medium text-muted-foreground">Available</CardTitle>
-                      <CardHeader className="pb-2">
+                      </CardHeader>
                       <CardContent>
                         <p className="text-3xl font-display font-bold">
                           {(seatsData?.total_seats || 0) - (seatsData?.seats.length || 0)}
